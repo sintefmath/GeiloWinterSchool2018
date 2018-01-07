@@ -1,0 +1,110 @@
+% Approximately equal to
+\newcommand{\appropto}{\mathrel{\vcenter{
+      \offinterlineskip\halign{\hfil$##$\cr
+        \propto\cr\noalign{\kern2pt}\sim\cr\noalign{\kern-2pt}}}}}
+
+% Smiley and frowney items
+\newcommand{\startsmitemize}{\vspace{0.15cm}}
+\newcommand{\smitem}{\vspace{0.1cm}\noindent\smiley\;}
+\newcommand{\fritem}{\vspace{0.1cm}\noindent\frownie\;}
+
+% Number systems, fields, rings, groups...
+\newcommand{\bbR}{\mathbb{R}}
+\newcommand{\bbC}{\mathbb{C}}
+\newcommand{\bbZ}{\mathbb{Z}} 
+\newcommand{\bbN}{\mathbb{N}}
+\newcommand{\bbS}{\mathbb{S}}
+
+% Calligraphic style
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+
+% Roman style
+\newcommand{\rmK}{\mathsf{K}}
+\newcommand{\rmM}{\mathsf{M}}
+\newcommand{\rmP}{\mathsf{P}}
+\newcommand{\rmS}{\mathsf{S}}
+
+\newcommand{\rmm}{\mathsf{m}}
+\newcommand{\rmp}{\mathsf{p}}
+\newcommand{\rms}{\mathsf{s}}
+
+\newcommand{\rmsp}{\mathsf{sp}}
+
+% Symbols
+\newcommand{\defeq}{\vcentcolon=}
+\newcommand{\eqdef}{=\vcentcolon}
+
+% Symbols in special fonts
+\newcommand{\blfa}{{\sf a}}
+\newcommand{\lfl}{{\ell}}
+\newcommand{\ii}{\mathsf{i}}
+\newcommand{\ee}{\mathsf{e}}
+
+% Algorithmic
+\newcommand{\BREAK}{\STATE \textbf{BREAK}}
+
+\usefont{T1}{cmtt}{m}{n}
+
+% Notes, etc.
+\newcommand{\todo}[1]{{\color{red}\textbf{TODO:} #1}}
+
+% Operators
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\idty}{Id}
+\DeclareMathOperator{\spann}{span}
+\DeclareMathOperator{\Mod}{mod}
+
+\newcommand{\dd}{\,\text{d}}
+\newcommand{\fdd}{\text{d}}
+
+% Shearlet chapter notation
+\newcommand{\aPsi}[5]{\Psi_{#1,#2,#3}^{#4,#5}}
+\newcommand{\numatlevel}{\operatorname{NumAtLevel}}
+\newcommand{\numright}{\operatorname{NumRight}}
+\newcommand{\numup}{\operatorname{NumUp}}
+\newcommand{\numshears}{\operatorname{NumShears}}
+\newcommand{\nummothers}{\operatorname{NumMothers}}
+\newcommand{\stepright}{\operatorname{StepRight}}
+\newcommand{\stepup}{\operatorname{StepUp}}
+\newcommand{\shear}{\operatorname{Shear}}
+\newcommand{\basetrf}{\operatorname{BaseTransform}}
+\newcommand{\trf}{\operatorname{Transform}}
+\newcommand{\corners}{\operatorname{Corners}}
+\newcommand{\checkintersection}{\operatorname{CheckIntersection}}
+\newcommand{\computeintersection}{\operatorname{ComputeIntersection}}
+\newcommand{\splitpolygon}{\operatorname{SplitPolygon}}
+\newcommand{\transformquadrule}{\operatorname{TransformQuadrule}}
+\newcommand{\builddquadrule}{\operatorname{BuildDoubleQuadrule}}
+\newcommand{\buildsquadrule}{\operatorname{BuildSingleQuadrule}}
+\newcommand{\evalblf}{\operatorname{EvalBLF}}
+\newcommand{\evallf}{\operatorname{EvalLF}}
+\newcommand{\preparepoints}{\operatorname{PreparePoints}}
+\newcommand{\modd}{\;\operatorname{\textbf{mod}}\;}
+
+% Boltzmann chapter notation
+\newcommand{\Bt}{\tilde{B}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\Bsr}{\B_{\sqrt{2}R}}
+\newcommand{\Btr}{\B_{2R}}
+\newcommand{\AFF}{\cA_\text{FF}}
+\newcommand{\ml}{\lambda^{(+)}}
+\newcommand{\LtDl}{{L^2(\cD_L)}}
+\newcommand{\PA}{{P_\cA}}
+\newcommand{\Qt}{Q_\text{lin}}
+
+% Circled characters
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
