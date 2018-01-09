@@ -1,3 +1,4 @@
 course_material/.ipynb_checkpoints
 course_material/.ipynb_checkpoints/*
 course_material/filename.npy
+course_material/__pycache__
