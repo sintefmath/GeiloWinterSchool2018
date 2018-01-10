@@ -3,13 +3,12 @@ import itertools as it
 
 
 def winner_horizontal(board):
-    board = [list(row) for row in board]
     for row in board:
         if all(r == 'X' for r in row):
             return 'X'
         elif all(r == 'O' for r in row):
             return 'O'
-    if all(all(r is not None for r in row) for row in board):
+    if all(r is not None for r in row for row in board):
         return 'D'
     return None
 
@@ -161,7 +160,7 @@ def fight(ai1, ai2, n=10):
     occ = [0, 0, 0]
     start = [[None] * 3] * 3
 
-    for p1, p2, loc in [(ai1, ai2, 'DXO'), (ai2, ai1, 'DOX')]
+    for p1, p2, loc in [(ai1, ai2, 'DXO'), (ai2, ai1, 'DOX')]:
         for _ in range(n):
             board = [list(row) for row in start]
             for ai, player in it.cycle([(p1, 'X'), (p2, 'O')]):
