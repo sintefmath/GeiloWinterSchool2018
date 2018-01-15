@@ -30,12 +30,22 @@ Type `exit()` and press enter
 
 Start "Anaconda Promt" if you haven't already (see above) and type the following
 ```
-pip install keras seaborn numexpr
+pip install keras seaborn numexpr sklearn tensorflow
 ```
+
+In addition you will need either `opencv-python` or `pygame` to access the webcam (either will work). Depending on your operating system we recoomend:
+
+#### Windows or Mac
+`pip install opencv-python`
+
+#### Linux
+`pip install pygame`
+
 
 ### Downloading course material
 
-[Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sintefmath/GeiloWinterSchool2018) the source materials for this course and extract it someplace on your computer.
+* [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sintefmath/GeiloWinterSchool2018) the source materials for this course and extract it someplace on your computer.
+* [Download](https://www.dropbox.com/s/5dx3zcoxgytihlj/cats_dogs.zip?dl=0) the cats vs dogs dataset (20,000 images of cats and dogs for classification)
 
 ### Follow the lectures
 
