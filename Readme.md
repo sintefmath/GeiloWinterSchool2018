@@ -45,7 +45,9 @@ In addition you will need either `opencv-python` or `pygame` to access the webca
 ### Downloading course material
 
 * [Download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sintefmath/GeiloWinterSchool2018) the source materials for this course and extract it someplace on your computer.
-* [Download](https://www.dropbox.com/s/5dx3zcoxgytihlj/cats_dogs.zip?dl=0) the cats vs dogs dataset (20,000 images of cats and dogs for classification)
+* [Cats and dogs](https://www.dropbox.com/s/5dx3zcoxgytihlj/cats_dogs.zip?dl=0) the cats vs dogs dataset (20,000 images of cats and dogs for classification)
+* [Ships](https://www.dropbox.com/s/s7wb8jdkjextf12/shipsnet.json.zip?dl=0#) 2800 colour images of aerial view of ships
+
 
 ### Follow the lectures
 
