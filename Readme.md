@@ -30,7 +30,7 @@ Type `exit()` and press enter
 
 Start "Anaconda Promt" if you haven't already (see above) and type the following
 ```
-pip install keras seaborn numexpr sklearn tensorflow
+pip install numpy scipy matplotlib pandas keras seaborn numexpr sklearn tensorflow
 ```
 
 In addition you will need either `opencv-python` or `pygame` to access the webcam (either will work). Depending on your operating system we recoomend:
